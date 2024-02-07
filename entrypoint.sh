@@ -2,7 +2,7 @@
 
 # 默认各参数值，请自行修改.(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 PORT=${PORT:-'8080'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'2ca20f40-76c0-4d00-be48-a01856680d72'}
 WSPATH=${WSPATH:-'argo'}
 
 # 生成 Xray 配置文件
@@ -211,7 +211,7 @@ mv xray ${RANDOM_NAME}
 rm -f temp.zip
 
 # 如果有设置哪吒探针三个变量,会安装。如果不填或者不全,则不会安装
-[ -n "${NEZHA_SERVER}" ] && [ -n "${NEZHA_PORT}" ] && [ -n "${NEZHA_KEY}" ] && wget https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -O nezha.sh && chmod +x nezha.sh && echo '0' | ./nezha.sh install_agent ${NEZHA_SERVER} ${NEZHA_PORT} ${NEZHA_KEY}
+[ -n "${dash2.xplol.cn}" ] && [ -n "${5555}" ] && [ -n "${8acSv3oEaE129Zdlks}" ] && wget https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -O nezha.sh && chmod +x nezha.sh && echo '0' | ./nezha.sh install_agent ${dash2.xplol.cn} ${NEZHA_PORT} ${NEZHA_KEY}
 
 # 显示节点信息
 sleep 15
